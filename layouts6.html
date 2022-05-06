@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Layout 1</title>
+        <--! i dont really understand the grids but i gave it my best shot --></--!>
+        <style>
+            div {
+                outline: 1px solid black;
+            }
+            #container {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin: auto;
+                max-width: 800px;
+            }
+            #blue {
+                background-color: blue;
+                grid-column: 1/;
+                height: 200px;
+            }
+            
+            #red {
+                display: grid;
+                background-color: red;
+                grid-template-columns: 50% 50%;
+                height: 600px;
+                width: 800px;
+
+
+            }
+
+            
+            .yellow1 {
+                background-color: yellow;
+                margin: 20px;
+                width: 125px;
+            }
+            
+            .yellow2{
+                background-color: yellow;
+                margin: 20px;
+                width: 125px;
+            }
+            
+            
+             .yellow5{
+                background-color: yellow;
+                margin: 20px;
+                  
+            }
+               
+             .yellow6{
+                background-color: yellow;
+                margin: 20px;
+  
+            }
+               
+            #green {
+                background-color: lime;
+                grid-column: 1/4;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="blue"></div>
+            <div id="green"></div>
+            <div id="red">
+                <div class="yellow1"></div>
+                <div class="yellow2"></div>
+                <div class="yellow5"></div>
+                <div class="yellow6"></div>
+            </div>
+            
+        </div>
+</body>
+</html>

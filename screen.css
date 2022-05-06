@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+body{
+    font-family: Quicksand;
+    margin: 0;
+    background-color: #84dfb9;
+    width: 1500px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+
+#nav{
+    background-color: #67bb99;
+    text-align: center;
+    color: #ffffff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-bottom: 3px dashed #000fff;
+    font-weight: 700;
+    word-spacing: 20px;
+}
+
+#header{
+    text-align: center;
+    background-image: url("img/illustration.gif"), url("img/texture.jpg");
+    height: 600px;
+}
+
+.register_btn{
+   background-color: #ee4432;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #ffffff;
+    
+}
+
+#logo{
+    width: 500px;
+}
+
+#description, #date{
+    width: 300px;
+}
+#what{
+    background-color: #c7eedd;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #347788;
+    opacity: 90%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#sponsor_logos{
+    width: 300px;
+    margin: auto;
+}
+
+#why{
+    background-color: #b6ead3;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #347788;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#why p{
+    text-align: left;
+}
+
+#where{
+    text-align: center;
+    background-image: url("img/map.gif");
+    height: 650px;
+    padding-top: 30px;
+    color: #bb4488;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#where p {
+    padding-left: 450px;
+}
+
+#when{
+    text-align: center;
+    background-color: #439998;
+    background-image: url("img/wires.png");
+    padding-top: 10px;
+    color: #ffffff;
+    margin: 0 auto;
+    
+    
+}
+
+#when h2 {
+    border-bottom: dashed 2px #ffffff;
+    padding-bottom: 50px;
+}
+
+#when ul {
+    border-bottom: dashed 2px #ffffff;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    text-align: left;
+    padding-right: 700px;
+    padding-left: 200px;
+}
+
+#who{
+    background-color:#f5f5f5; 
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: -20px;
+    color: #347788;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#who p {
+    color: #347788;
+    font-weight: 400;
+    text-align: left;
+}
+
+#footer{
+    background-image: url("img/texture.jpg");
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+#footer img{
+    width: 50px;
+}

@@ -1,0 +1,25 @@
+.red {
+    color: red;
+}
+
+#headerbar{
+    border: 5px solid purple;
+    height: 100px;
+    width: 50px;
+    
+}
+
+#sitecontent{
+    border: 5px solid blue;
+    height: 100px;
+    width: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer{
+    border: 5px solid yellow;
+    height: 100px;
+    width: 50px;
+    padding-left: 50px;
+}
